@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    background:#081725;
+ }
+ .container,.skill{
+    display: flex;
+ }
+.container1{
+    border: 1px solid white;
+    background-color:#081725;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 50vw;  
+}
+
+.jacob{
+color:white;
+margin-left: 5px;
+}
+ul{
+    color: white;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+header{
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+}
+.font,h1{
+    color: white;
+   
+}
+.pic1{
+    position: absolute;
+   margin-left: 31%;
+}
+.font{
+    color: white;
+    margin:10px ;
+}
+.h3{
+    color: hsl(186, 100%, 50%);
+   
+}
+.btn{
+    border-radius: 8px;
+    margin: 20px;
+    padding: 5px;
+    width: 10vw;
+    background:  hsl(186, 100%, 50%);
+}
+.btn2{
+    background:#081725;
+    color: aqua;
+    border: 1px solid aqua;
+    position: inline;
+}
+.fa-brands{
+   
+    border-radius:50% ;
+    border: 1px solid aqua;
+    padding: 8px;
+    color: aqua;
+}
+.pic2{
+    border: 1px solid aqua;
+    border-radius: 50%;
+    height: 25vh;
+    width: 11vw;
+}
+.div2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid white;
+    height: 450px;
+    margin-top: 13rem;
+}
+.para2,h4{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.pic2,.btn3{
+    align-self: center;
+}
+.txtcol,h6{
+    color: aqua;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid white;
+   width: 870px;
+}
+.box1{
+    padding: 8px;
+    margin: 8px 20px;
+    width: 300px;
+    border: 1px solid  hsl(186, 100%, 50%);
+    border-radius: 8px ;
+}
+p,h5{
+    color: white;
+}
+.part1 {
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    
+}
+.mj{
+  text-align: center;
+}
+h5{
+    padding: 5px 21px;
+}
+.mySkills{
+    color: white;
+    text-align: center;
+}
+
+.box3{
+   border: 1px solid white; 
+   width: 300px;
+}
+.inpart1{
+   
+    border: 1px solid white;
+    justify-content: center;
+}
+.skill-bar{
+    height: 10px;
+    width: 30px;
+}
+
+
+
+
