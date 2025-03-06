@@ -6,7 +6,7 @@
  body{
     background:#081725;
  }
- .container,.skill{
+ .container{
     display: flex;
  }
 .container1{
@@ -126,22 +126,69 @@ h5{
 .mySkills{
     color: white;
     text-align: center;
+   
 }
 
-.box3{
-   border: 1px solid white; 
-   width: 300px;
+.skills{
+    width: 100%;
+    max-width: 300px;
+    padding: 0 20px;
+    
 }
-.inpart1{
-   
-    border: 1px solid white;
-    justify-content: center;
+
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+color: aliceblue;
+text-transform: uppercase;
+margin: 20px 0;
 }
 .skill-bar{
-    height: 10px;
-    width: 30px;
+    height: 15px;
+    background:#081725;
+    border: 3px solid  hsl(186, 100%, 50%);
+    width: 15rem;
+}
+.skill-per{
+    height: 5px;
+    background: hsl(186, 100%, 50%);
+    border-radius: 3px;
+    position: relative;
+    margin: 3px 0;
 }
 
-
+.innerpart{
+    display: flex;
+    justify-content: center;
+   
+}
+.fin{
+    width: 16rem;
+    height: 40px;
+    border:1px solid  hsl(186, 100%, 50%);
+    align-content: center;
+    color: white;
+}
+.final{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    width:40rem ;
+    border: 1px solid white;
+}
+.fin-2{
+    width: 33rem;
+    height: 13rem;
+    margin-top: px;
+}
+.cm{
+    color: white;
+    text-align: center;
+    margin: 40px;
+    }
 
 
