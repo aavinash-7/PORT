@@ -7,14 +7,15 @@
     background:#081725;
  }
  .container{
+    background-color:rgb(2, 47, 75);
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
  }
-.container1{
-    border: 1px solid white;
-    background-color:#081725;
-    margin-left: 30px;
-    margin-right: 30px;
-    width: 50vw;  
+.container1 ,.container2{
+    background-color:#081725; 
+    margin: 20px ;
+    border-radius: 15px; 
 }
 
 .jacob{
@@ -32,14 +33,11 @@ header{
     display: flex;
     top: 0;
     justify-content: space-between;
+    margin-right: 10px;
 }
 .font,h1{
     color: white;
    
-}
-.pic1{
-    position: absolute;
-   margin-left: 31%;
 }
 .font{
     color: white;
@@ -63,7 +61,6 @@ header{
     position: inline;
 }
 .fa-brands{
-   
     border-radius:50% ;
     border: 1px solid aqua;
     padding: 8px;
@@ -76,13 +73,13 @@ header{
     width: 11vw;
 }
 .div2{
+    margin-top: 9rem;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     flex-direction: column;
-    border: 1px solid white;
-    height: 450px;
-    margin-top: 13rem;
+    height: 550px;
+    
 }
 .para2,h4{
     margin-left: auto;
@@ -94,12 +91,6 @@ header{
 }
 .txtcol,h6{
     color: aqua;
-}
-.container2{
-    display: flex;
-    flex-direction: column;
-   border: 1px solid white;
-   width: 870px;
 }
 .box1{
     padding: 8px;
@@ -113,7 +104,6 @@ p,h5{
 }
 .part1 {
     display: flex;
-    border: 1px solid white;
     justify-content: center;
     
 }
@@ -178,17 +168,48 @@ margin: 20px 0;
     justify-content: center;
     gap: 6px;
     width:40rem ;
-    border: 1px solid white;
 }
 .fin-2{
     width: 33rem;
     height: 13rem;
-    margin-top: px;
 }
 .cm{
     color: white;
     text-align: center;
     margin: 40px;
     }
+.submit{
+    background: hsl(186, 100%, 50%);
+    color:black;
+    border-radius: 8px;
+    width: 8em;
+    height: 2em;
+   
+    margin-top: 10px; 
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.div11{
+    display: flex;
+    flex-direction: column;
+    margin-top:6rem;
+    margin-left: 3rem;
+}
+.sym{
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+}
+@media (max-width:500px) {
+    .pic2{
+        border: 1px solid aqua;
+        border-radius: 50%;
+        height: 25vh;
+        width: 11vw;
+}
+}
+
+
 
 
