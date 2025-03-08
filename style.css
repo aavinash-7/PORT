@@ -10,7 +10,6 @@
     background-color:rgb(2, 47, 75);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
  }
 .container1 ,.container2{
     background-color:#081725; 
@@ -201,7 +200,7 @@ margin: 20px 0;
     margin-top: 4rem;
     margin-left: 1.5rem;
 }
-@media (max-width:500px) {
+@media (max-width:1200px) {
     .pic2{
         border: 1px solid aqua;
         border-radius: 50%;
